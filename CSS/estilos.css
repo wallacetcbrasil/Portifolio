@@ -1,51 +1,133 @@
+/* tags da pagina */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
 body{
     background-color: #432e17;
     background-image: linear-gradient(0deg, #432e17 0%, #4c371f 19%, #563f27 39%, #604930 60%, #6a5239 80%, #745c42 100%);
     background-repeat: no-repeat;
-    background-attachment: fixed;    
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 100px;
+    
 }
 
-header{
-    width: 100%;
-    height: 50px;
-    background: #F2D4B7;
+p {
+    color: #F2D4B7;
+	font-size: 1.5em;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
-.Perfil{
-    position: relative;
-    width: 300px;
-    height: 300px;
-}
-
-
-
-#icone{
-    width: 90px;
-    height: 90px;
+section{
+    max-width: 590px;
+    margin-top: 40px;
+    margin-bottom: 10px;
 }
 
 Footer{
     bottom: 0;
     width: 100%;
     height: 50px;
-    position: fixed;
     background: #392818;
 }
 
+/* conteudos "globais" da pagina */
 
-.Table-text{
-    display:table;
-    width:100%;
-    height:50px;
+.container {
+	width: 97%;
+	margin: 0 auto;
 }
 
-.Cell-text{
+.texto{
+    margin-bottom: 20px;
+}
+
+.titulos{
+    color: #F2D4B7;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* cabeçalho da pagina */
+
+.cabecalhoPrincipal-titulo {
+	font-weight: bold;
+    color: #F2D4B7;
+    padding: 15px;
+    border: 3px solid #F2D4B7;
+    border-radius: 60%;
+	background-color: #392818;
+}
+
+.cabecalhoPrincipal{
+    background-color: #F2D4B7;
+    padding: 20px 0;
+    width: 100vw;
+}
+
+.cabecalhoPrincipal-nav-link {
+	color: #F2D4B7;
+    padding: 15px;
+    border: 3px solid #F2D4B7;
+    border-radius: 60%;
+	background-color: #392818;
+}
+
+/* Conteudo da pagina */
+
+.fotoPerfil{
+    height: 200px;
+    width: 200px;
+}
+
+
+.icone{
+    height: 100px;
+    width: 100px;
+}
+
+.conteudoPrincipal {
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+
+#motivacao{
+    color: #F2D4B7;    
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Final da pagina */
+
+#Table-text{
+    height:50px;
+    width: 100vw;
+    display:table;
+}
+
+#Cell-text{
     display:table-cell;
     vertical-align:middle;
 }
 
-.Copyright-text{
-    text-align: center; 
-    font-weight: bold;
+#Copyright-text{
     font-size: 15px;
+    font-weight: bold;
+    text-align: center; 
 }

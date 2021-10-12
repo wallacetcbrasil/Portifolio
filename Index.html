@@ -2,43 +2,101 @@
 <Html lang="pt-br">
 <Head>
     <Meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <Title> Portfólio </Title>
     <Link rel="stylesheet" href="css/reset.css">
     <Link rel="stylesheet" href="css/estilos.css">
+    <Link rel="stylesheet" href="css/flexbox.css">
 </Head>
 <Body>
-        <Header>
-            <Nav>
-            </Nav>
-        </Header>
-    <Main>
+    <Header class="cabecalhoPrincipal">
+        <div class="container">
+            <h1 class="cabecalhoPrincipal-nav">
+                <a href="#" class="cabecalhoPrincipal-titulo">Portifolio</a>
+            </h1>
+            <nav class="cabecalhoPrincipal-nav">
+                <a class="cabecalhoPrincipal-nav-link" href="#Perfil">Perfil</a></li>
+                <a class="cabecalhoPrincipal-nav-link" href="#Tecnologias">Tecnologias</a></li>
+                <a class="cabecalhoPrincipal-nav-link" href="#Projetos">Projetos</a></li>
+                <a class="cabecalhoPrincipal-nav-link" href="#Contatos">Contatos</a></li>
+            </nav>
+        </div>
+    </Header>
 
-            <img src="img/HTML.svg" id="icone" alt="Icone de Html">
-            <img src="img/CSS.svg" id="icone" alt="Icone de CSS">
-            <img src="img/JS.svg" id="icone" alt="Icone de JavaScript">
-            <img src="img/C.svg" id="icone" alt="Icone da Linguagem C">
-            <img src="img/VSCode.svg" id="icone" alt="Icone do Software VsCode">
-            <br>
-            <img src="img/Git.svg" id="icone" alt="Icone do Git">
-            <img src="img/Unity.svg" id="icone" alt="Icone d0 Software Unity">
-            <img src="img/UE.svg" id="icone" alt="Icone do Software Unreal Engine">
-            <img src="img/Blender.svg" id="icone" alt="Icone do Software Blender">
-            <img src="img/Aseprite.svg" id="icone" alt="Icone do Software Aseprite">
-            <br>
-            <img src="img/Gimp.svg" id="icone" alt="Icone do Software Gimp ">
-            <img src="img/CorelDraw.svg" id="icone" alt="Icone do Software CorelDraw">
-            <img src="img/Figma.svg" id="icone" alt="Icone do Software Figma">
-            <img src="img/Canva.svg" id="icone" alt="Icone da Ferramenta Canva">
-            <img src="img/Office.svg" id="icone" alt="Icone do Pacote Office">
+    <Main class="conteudoPrincipal">
+        <section id="Perfil">
+            <div align="center"> 
+                <img src="img/Perfil.svg" class="fotoPerfil">
+                <h1 class="titulos">Wallace Teixeira Correia Brasil</h1>
+                <h2 id="motivacao">"Voce decide sua vida e seu futuro, como um cafe, doce ou amargo"</h2>
+            </div>
+            <div>
+                <h2 id="sobre" class="titulos">Sobre mim</h2> 
+                    <p>Atualmente estou no 4 ano do ensino medio tecnico em</p>
+                    <p>informatica no colegio estadual pedro macedo. Vejo a</p>
+                    <p>area de programação como o dia a dia, nem tudo pode</p>
+                    <p>sair como planejado e acabamos errando ou esquecendo</p>
+                    <p>algo, mas podemos tentar acertar na proxima vez, como</p>
+                    <p>um codigo. Estou me arriscando a desbravar cada vez</p> 
+                    <p>mais essa area e tentando coisas como esse design de </p>
+                    <p>cafe, afinal de contas cafe e programação sao uma dupla</p>
+                    <p>que constantemente vemos lado a lado.</p>
+            </div>  
+        </section>
+
+        <section id="Tecnologias">
+            <div>
+                <h1 class="titulos">Conhecimentos</h1>
+                <p class="texto">Conhecimentos adquiridos por oportunidades, curiosidades e muitos erros.</p>
+            </div>
+            <nav class="Skills">
+                <ul class="Ferramentas">
+                    <li><img src="img/HTML.svg" class="icone" alt="Icone Html"></li>
+                    <li><img src="img/CSS.svg" class="icone" alt="Icone CSS"></li>
+                    <li><img src="img/JS.svg" class="icone" alt="Icone JavaScript"></li>
+                    <li><img src="img/C.svg" class="icone" alt="Icone Linguagem C"></li>
+                    <li><img src="img/VSCode.svg" class="icone" alt="Icone VsCode"></li>
+
+                    <li><img src="img/Git.svg" class="icone" alt="Icone Git"></li>
+                    <li><img src="img/Unity.svg" class="icone" alt="Icone Unity"></li>
+                    <li><img src="img/UE.svg" class="icone" alt="Icone Unreal Engine"></li>
+                    <li><img src="img/Blender.svg" class="icone" alt="Icone Blender"></li>
+                    <li><img src="img/Aseprite.svg" class="icone" alt="Icone Aseprite"></li>
+                            
+                    <li><img src="img/Gimp.svg" class="icone" alt="Icone Gimp "></li>
+                    <li><img src="img/CorelDraw.svg" class="icone" alt="Icone CorelDraw"></li>
+                    <li><img src="img/Figma.svg" class="icone" alt="Icone Figma"></li>
+                    <li><img src="img/Canva.svg" class="icone" alt="Icone Canva"></li>
+                    <li><img src="img/Office.svg" class="icone" alt="Icone Pacote Office"></li>
+                </ul>
+            
+            </nav>
+        </section>
+
+        <section id="Projetos">
+
+        </section>
+
+        <section id="Contatos">
+            <h1 class="titulos">Contatos, repositorio e portifólios.</h1>
+            <ul class="Ferramentas">
+                <li><a href="https://github.com/wallacetcbrasil"><img src="img/Github.svg" class="icone" alt="Icone Github"></a></li>
+                <li><a href="http://www.linkwhatsapp.com/SLAqzXPqLKaTd1bZTseB"><img src="img/Whatsapp.svg" class="icone" alt="Icone Whatsapp"></a></a></li>
+                <li><a href="mailto:wallacetcbrasil@gmail.com?Subject=Email%20do%20Portifolio"><img src="img/Gmail.svg" class="icone" alt="Icone Gmail "></a></li>
+                <li><a href="https://www.linkedin.com/in/wallacetcbrasil/"><img src="img/Linkedin.svg" class="icone" alt="Icone Linkedin"></a></li>
+                <li><a href="https://www.artstation.com/wallacetcbrasil"><img src="img/Artstation.svg" class="icone" alt="Icone Artstation"></a></li>
+            </ul>
+            
+        </section>    
 
     </Main>
-
-    <Footer>
-        <Div class="Table-text">
-            <Div class="Cell-text">
-              <Div class="Copyright-text">Copyright © Wallace Teixeira Correia Brasil 2021</Div>
+    <Footer class="rodape">
+        <Div id="Table-text">
+            <Div id="Cell-text">
+              <Div id="Copyright-text">Copyright © Wallace Teixeira Correia Brasil 2021</Div>
             </Div>
         </Div>
     </Footer>
+
 </Body>
 </Html>
