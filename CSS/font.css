@@ -1,0 +1,7 @@
+@font-face {
+    src: url(../font/HumbleCafe-P6R7.ttf);
+    font-family: 'HumbleCafe-P6R7';   
+} 
+body{
+	font-family: 'HumbleCafe-P6R7'; 
+}
