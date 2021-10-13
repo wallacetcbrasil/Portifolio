@@ -2,6 +2,7 @@
 
 html {
     scroll-behavior: smooth;
+    font-family: 'Permanent Marker', cursive;
 }
 
 body::-webkit-scrollbar {
@@ -23,7 +24,7 @@ body{
 
 p {
     color: #F2D4B7;
-	font-size: 2.2em;
+	font-size: 1.5em;
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -34,7 +35,7 @@ A {
 
 h4{
     color: #F2D4B7;
-    font-size: 1.5em;
+    font-size: 0.9em;
     margin-top: 5px;
     margin-bottom: 5px;
     text-align: center;
@@ -66,7 +67,7 @@ Footer{
 
 .titulos{
     color: #F2D4B7;
-    font-size: 2.7em;
+    font-size: 2.2em;
     font-weight: bold;
     text-align: center;
     margin-top: 10px;
@@ -118,7 +119,7 @@ Footer{
 
 #motivacao{
     color: #F2D4B7;    
-    font-size: 2.1em;
+    font-size: 1.2em;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -155,6 +156,7 @@ Footer{
     }
     
     .cabecalhoPrincipal-nav-link {
+        font-size: 0.7em;
         padding: 0.5em;
     }
     
@@ -162,6 +164,11 @@ Footer{
     .icone{
         flex-shrink: 1;
     } 
-    
+
+    body {
+        text-align: justify;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
     
 }
