@@ -1,0 +1,8 @@
+Emulador.
+Adblocker.
+Player de musica.
+Gravador de tela.
+Simulador de compras (tipo LuckyPatcher). 
+Baixar videos e musicas do youtube e outros sites.
+Mini banco de dados de links de programação por temas.
+contador de inputs 
