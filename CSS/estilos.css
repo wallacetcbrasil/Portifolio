@@ -104,7 +104,6 @@ Footer{
     width: 200px;
 }
 
-
 .icone{
     height: 100px;
     width: 100px;
@@ -115,6 +114,10 @@ Footer{
 	margin-bottom: 50px;
 }
 
+#DoomFire {
+	margin-left: 16vw;
+    margin-right: 20vw;
+}
 
 #motivacao{
     color: #F2D4B7;    
