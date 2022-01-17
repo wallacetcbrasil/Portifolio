@@ -10,7 +10,6 @@ body::-webkit-scrollbar {
 }
 
 body{
-    background-color: #432e17;
     background-image: linear-gradient(0deg, #432e17 0%, #4c371f 19%, #563f27 39%, #604930 60%, #6a5239 80%, #745c42 100%);
     background-repeat: no-repeat;
     background-attachment: fixed;

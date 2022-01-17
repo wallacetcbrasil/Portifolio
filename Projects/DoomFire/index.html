@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <style>
+
+            html, body {
+               height: 100%;
+            }
+
+            html {
+                display: table;
+                margin: auto;
+            }
+
+            body{ 
+                margin:0 auto; 
+                display: table-cell; 
+                vertical-align: middle;
+                background-image: linear-gradient(0deg, #432e17 0%, #4c371f 19%, #563f27 39%, #604930 60%, #6a5239 80%, #745c42 100%);
+            }
+
+            table{
+                border-collapse: collapse;
+                border: 1px Solid#000;
+            }
+
+            td{
+                width: 50px;
+                height: 50px;
+                border: 1px solid #000;
+                text-align: center;
+                vertical-align: center;
+                font-family: monospace;
+                font-size: 18px;
+                position: relative;
+            }
+
+            .title{
+                font-size: 35px;
+            }
+
+            .pixel-index {
+                font-size: 10px;
+                display: inline-block;
+                position: absolute;
+                top: 2px;
+                right: 2px;
+                color: #999;
+            }
+
+            td.pixel {
+                width: 4px;
+                height: 4px;
+                border: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="title">DOOM FIRE</h1>
+        <div id="fireCanvas"></div>
+        <script src="fire.js"></script>
+    </body>
+</html>
